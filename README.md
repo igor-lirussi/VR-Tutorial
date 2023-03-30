@@ -1,4 +1,4 @@
-# TemplateRepository
+# VR-Tutorial
 **A tutorial scene where the player can understand the basics of VR interaction, moving, picking objects, teleporting.**
 This tutorial is originally designed for HTC Vive.
 
@@ -25,6 +25,7 @@ At the end of the tutorial is possible to set automatically the passage to anoth
 
 ## Requirements & Dependencies
 - Unity 2021.2
+- SteamVR Plugin
 
 ## Install 
 - clone the repository
@@ -33,8 +34,15 @@ At the end of the tutorial is possible to set automatically the passage to anoth
 ## Run
 Execute the project with Unity
 
+## Troubleshooting
+if the SteamVR Plugin is not recognized:
+- Download it from the Asset Store, Add it to the project and import it.
+- Window -> SteamVR Input -> Save and Generate
+- Add player to scene from SteamVR examples
+
 ## Useful Resources & Extra
 - Links
+ - https://valvesoftware.github.io/steamvr_unity_plugin/articles/Quickstart.html
 - Resources
 
 {% include_cached snippets/masonry.html internal="gallery" %}
