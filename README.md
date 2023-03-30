@@ -1,44 +1,46 @@
 # TemplateRepository
-**Brief description here, like in the about**
-## Description 
-A repository used as a base, not to write all over again. 
+**A tutorial scene where the player can understand the basics of VR interaction, moving, picking objects, teleporting.**
+This tutorial is originally designed for HTC Vive.
 
-1. Generate a new repo with this one as a template
-2. Add **Description**
-3. Add **Tags**
-4. Add **.gitignore** (Add file-> Create New File -> Type ".gitignore" -> Choose .gitignore -> Commit)
-5. Review **Licence** (Add file-> Create New File -> Type "LICENCE" -> Choose a licence template -> Review and submit)
-6. Change **image result** in /img/result.jpg
-7. Change **image preview** in settings 
-8. Edit this **README**
+## Description 
+An empty room, with only a table and simple objects. The player hears a voice introduction to moving the head and looking around.
+
+Afterwards the voice explains how to grab the objects and release them, showing the relative button in the controller. 
+
+The tutorial is self-paced, so will proceed only when the player will pick the apple and release it onto the tray.
+
+Finally, the voice will instruct the player how to teleport, showing the relative button and enabling this function. 
+
+At the end of the tutorial is possible to set automatically the passage to another scene. It can be done also on the keyboard using designated keys to go to next scene or start/finish the tutorial. 
+
+[[All my VR Projects here]](https://github.com/igor-lirussi?tab=repositories&q=virtual-reality)
 
 ### Topics:
-- Repository 
-- Template
-- Code Automation
+- VR Virtual-Reality 
+- Tutorial
+- Template Project
 
 ## Result
 ![Result](./img/result.jpg)
 
 ## Requirements & Dependencies
-- Programming Language
-- Libraries
+- Unity 2021.2
 
 ## Install 
-*   clone in the route directory
-*   ```./install.sh```
+- clone the repository
+- open with UnityHub
 
 ## Run
-```bash
-execution command
-```
+Execute the project with Unity
 
 ## Useful Resources & Extra
 - Links
 - Resources
 
+{% include_cached snippets/masonry.html internal="gallery" %}
+
 ## Authors
-* **Igor Lirussi** @ BOUN Boğaziçi University - CoLoRs (Cognitive Learning and Robotics) Lab
+* **Igor Lirussi** @ BOUN Boğaziçi University - BuViar Lab
 
 ## Acknowledgments
 *   All the people that contributed with suggestions and tips.
