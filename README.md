@@ -3,15 +3,16 @@
 This tutorial is originally designed for HTC Vive.
 
 ## Description 
-An empty room, with only a table and simple objects. The player hears a voice introduction to moving the head and looking around.
+An empty room, with only a table and simple objects. The player hears a voice introducing the VR and inviting to move the head and look around.
 
-Afterwards the voice explains how to grab the objects and release them, showing the relative button in the controller. 
+Afterwards the voice explains how to grab the objects and release them, showing the relative button on the controller. 
 
 The tutorial is self-paced, so will proceed only when the player will pick the apple and release it onto the tray.
 
 Finally, the voice will instruct the player how to teleport, showing the relative button and enabling this function. 
 
-At the end of the tutorial is possible to set automatically the passage to another scene. It can be done also on the keyboard using designated keys to go to next scene or start/finish the tutorial. 
+Once the player teleported, at the end of the tutorial, it is possible to set automatically the passage to another scene. 
+It also can be done on the keyboard using designated keys to go to next scene or start/finish the tutorial. 
 
 [[All my VR Projects here]](https://github.com/igor-lirussi?tab=repositories&q=virtual-reality)
 
@@ -41,9 +42,7 @@ if the SteamVR Plugin is not recognized:
 - Add player to scene from SteamVR examples
 
 ## Useful Resources & Extra
-- Links
- - https://valvesoftware.github.io/steamvr_unity_plugin/articles/Quickstart.html
-- Resources
+- [Quickstart SteamVR](https://valvesoftware.github.io/steamvr_unity_plugin/articles/Quickstart.html)
 
 {% include_cached snippets/masonry.html internal="gallery" %}
 
